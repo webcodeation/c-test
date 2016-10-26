@@ -1,0 +1,121 @@
+body{
+	background: #f1f1f1;
+	margin: 0;
+	padding: 0;	
+	font: .6rem/1.5  "微软雅黑",tahoma,arial,'Hiragino Sans GB','\5b8b\4f53',sans-serif;}
+*{box-sizing: border-box;}
+/*banner*/
+.banner{
+	width: 100%;
+	height: 8.66666rem;
+	position: relative;
+}
+.banImg img{
+	width: 100%;
+}
+.popup{
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 1.6rem;
+	border-top: 1px solid transparent;
+	border-bottom: 1px solid transparent;
+	background: rgba(0,0,0,.6);
+}
+.iconStyle {
+	padding: 2px 6px;
+	background: #ec7070;
+	font-size: 0.373333rem;
+	color: #FFFFFF;
+	margin-right: 8px;
+	border-radius: 4px;
+}
+.popup p{
+	display: inline-block;
+	margin-top: 0.48rem;
+	margin-left: 0.533333rem;
+	font-size: 0.4266666rem;
+	color: #ffffff;
+}
+.star{
+	margin-top: 0.22rem;
+	width: 1.6rem;
+	float: right;
+	text-align: center;
+	padding: 0 10px;
+	border-left: 1px solid #FFFFFF;
+}
+.star i{
+	display: block;
+	width:0.64rem ;
+	height: 0.64rem;
+	margin: 0 auto;
+	background: url(../img/收藏.png) no-repeat;
+	background-size: cover;
+}
+.star span{
+	display: block;
+	color: #FFFFFF;
+	text-align: center;
+	font-size: 0.32rem;
+}
+
+/*imgWrap*/
+.img{
+	margin-bottom: 1.4rem;
+}
+.img img{
+	display: block;
+	width: 100%;
+}
+
+/**/
+.price{
+	background: #FFFFFF;
+	border-bottom: 0.02666666rem solid #ccc; 	margin-bottom:0.533333rem ;
+}
+.price p {margin: 0;padding-bottom: .2rem;}
+.span1{
+	margin-left: 1em;
+	color: #f96269;
+	font-size: 0.373333rem;
+}
+.span2{
+	margin-right: 6px;
+	color: #f96269;
+	font-size: 0.48rem;
+}
+.span3{
+	margin-right: 10px;
+	color: #bbbbbb;
+	font-size: 0.32rem;
+	text-decoration: line-through;
+}
+.fs12{font-size:0.32rem ;}
+.span33{
+	display: inline-block;
+	/*width: 33.333%;*/
+	width: 40%;
+	text-indent: 2em;
+	font-size: 0.32rem;
+	color: #999999;
+}
+.tr{text-align: right;}
+
+/*footer*/
+.footer{
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+}
+.footer a{
+	display: block;
+	width: 100%;
+	height: 1.4rem;
+	background: #ee5a58;
+	text-align: center;
+	color: #FFFFFF;
+	font-size: 0.48rem;
+	line-height: 1.4rem;
+	text-decoration: none;
+}
